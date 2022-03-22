@@ -1,0 +1,11 @@
+.Button {
+  padding: 16px;
+  background-color: white;
+  color: #333;
+  border: 1px solid #dcdcdc;
+  user-select: none;
+  cursor: pointer;
+  &:active {
+    background-color: #ededed;
+  }
+}

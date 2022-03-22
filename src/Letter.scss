@@ -1,0 +1,27 @@
+$letterColor--absent: #e6e6e6;
+$letterColor--wrongPlace: #f7da21;
+$letterColor--correct: #f7da21;
+
+.Letter {
+  color: white;
+  background-color: gray;
+  padding: 16px 0;
+  text-align: center;
+  width: 100px;
+  margin: 8px;
+  font-size: 4em;
+  text-transform: uppercase;
+  display: inline-block;
+  &--unchecked {
+    background-color: lightgray;
+  }
+  &--absent {
+    background-color: #787c7e;
+  }
+  &--wrongPlace {
+    background-color: #c9b458;
+  }
+  &--correct {
+    background-color: #6aaa64;
+  }
+}
