@@ -1,10 +1,10 @@
 {
-  "name": "wordle-template-selena",
+  "name": "wordle",
   "version": "1.0.0",
   "license": "UNLICENSED",
   "description": "",
   "keywords": [],
-  "homepage": "http://selena-groh.github.io/spelling-bee",
+  "homepage": "http://selena-groh.github.io/wordle",
   "main": "src/index.js",
   "dependencies": {
     "classnames": "2.3.1",
